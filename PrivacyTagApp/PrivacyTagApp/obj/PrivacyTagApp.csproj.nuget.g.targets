@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.text.json\8.0.4\buildTransitive\net462\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\8.0.4\buildTransitive\net462\System.Text.Json.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.0\buildTransitive\net462\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.0\buildTransitive\net462\Microsoft.Extensions.Logging.Abstractions.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.options\8.0.0\buildTransitive\net462\Microsoft.Extensions.Options.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.options\8.0.0\buildTransitive\net462\Microsoft.Extensions.Options.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.binder\8.0.0\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.Binder.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.binder\8.0.0\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.Binder.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.texttemplating\17.0.0\build\Microsoft.TextTemplating.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.texttemplating\17.0.0\build\Microsoft.TextTemplating.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.eco\1.0.1602.22000\build\Microsoft.Eco.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.eco\1.0.1602.22000\build\Microsoft.Eco.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.cosmos.scopesdk\1.5115064.2\build\Microsoft.Cosmos.ScopeSDK.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.cosmos.scopesdk\1.5115064.2\build\Microsoft.Cosmos.ScopeSDK.targets')" />
+    <Import Project="$(NuGetPackageRoot)bond.csharp\13.0.0\build\Bond.CSharp.targets" Condition="Exists('$(NuGetPackageRoot)bond.csharp\13.0.0\build\Bond.CSharp.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.cloud.instrumentationframework.vc14\3.1.6.86\build\Microsoft.Cloud.InstrumentationFramework.VC14.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.cloud.instrumentationframework.vc14\3.1.6.86\build\Microsoft.Cloud.InstrumentationFramework.VC14.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.azure.documentdb\1.22.0\build\Microsoft.Azure.DocumentDB.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.documentdb\1.22.0\build\Microsoft.Azure.DocumentDB.targets')" />
+    <Import Project="$(NuGetPackageRoot)datagrid.shared.servicelogging\9.1.24201.47\Build\DataGrid.Shared.ServiceLogging.targets" Condition="Exists('$(NuGetPackageRoot)datagrid.shared.servicelogging\9.1.24201.47\Build\DataGrid.Shared.ServiceLogging.targets')" />
+    <Import Project="$(NuGetPackageRoot)datagrid.shared.assetcontracts\9.1.19246.2\Build\DataGrid.Shared.AssetContracts.targets" Condition="Exists('$(NuGetPackageRoot)datagrid.shared.assetcontracts\9.1.19246.2\Build\DataGrid.Shared.AssetContracts.targets')" />
+  </ImportGroup>
+</Project>

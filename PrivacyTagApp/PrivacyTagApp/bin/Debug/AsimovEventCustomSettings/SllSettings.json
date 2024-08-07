@@ -1,0 +1,47 @@
+﻿{
+  "$type": "Microsoft.DataPlatform.DataDiscovery.AssetCustomSetting, Microsoft.DataPlatform.DataDiscovery",
+  "Attributes": [
+    {
+      "Key": {
+        "$type": "Microsoft.DataPlatform.DataDiscovery.DGEntityAttributesAttribute, Microsoft.DataPlatform.DataDiscovery",
+        "ColumnPrefix": "C"
+      },
+      "Value": "Data.Definitions[0].Fields"
+    },
+    {
+      "Key": {
+        "$type": "Microsoft.DataPlatform.DataDiscovery.DGIncludeCommonColumnsAttribute, Microsoft.DataPlatform.DataDiscovery",
+        "EntityInstanceId": "AsimovEvent_EventRegistry_CommonEvents:SllPartAEvent",
+        "ColumnPrefix": "A"
+      },
+      "Value": "Data"
+    },
+    {
+      "Key": {
+        "$type": "Microsoft.DataPlatform.DataDiscovery.DGIncludeCommonColumnsAttribute, Microsoft.DataPlatform.DataDiscovery",
+        "EntityName": "{0}",
+		    "HonorEntityName": "True",
+        "ColumnPrefix": "B"
+      },
+      "Value": "Data.Definitions[0].Attributes.partBRef"
+    },
+    {
+      "Key": {
+        "$type": "Microsoft.DataPlatform.DataDiscovery.DGIncludeReferencedEntityAttribute, Microsoft.DataPlatform.DataDiscovery",
+        "EntityInstanceIdTemplate": "AsimovEvent_EventRegistry_CommonEvents:{0}",
+        "EntityIdsJsonPath": "Data.Definitions[0].Ref",
+        "CustomTypeName": "struct",
+        "Separator": "."
+      },
+      "Value": "Data"
+    },
+    {
+      "Key": {
+        "$type": "Microsoft.DataPlatform.DataDiscovery.DGEntityCosmosLocationAttribute, Microsoft.DataPlatform.DataDiscovery",
+        "Location": "https://cosmos15.osdinfra.net/cosmos/asimov.prod.data/local/Public/Collection/Asimov/v3/Sll/Low/Primary/%Y/%m/%d/%h_00_00.ss"
+      },
+      "Value": "Data"
+    },
+     <<COMMON_SETTINGS_PLACEHOLDER>>
+  ]
+}

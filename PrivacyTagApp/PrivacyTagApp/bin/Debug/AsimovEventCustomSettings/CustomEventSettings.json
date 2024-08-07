@@ -1,0 +1,12 @@
+﻿{
+  "$type": "Microsoft.DataPlatform.DataDiscovery.AssetCustomSetting, Microsoft.DataPlatform.DataDiscovery",
+  "Attributes": [
+    {
+      "Key": {
+        "$type": "Microsoft.DataPlatform.DataDiscovery.DGEntityAttributesAttribute, Microsoft.DataPlatform.DataDiscovery"
+      },
+      "Value": "Data.Definitions[0].Fields"
+    },
+    <<COMMON_SETTINGS_PLACEHOLDER>>
+  ]
+}

@@ -1,0 +1,109 @@
+﻿{
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGOverviewFieldAttribute, Microsoft.DataPlatform.DataDiscovery",
+    "DisplayName": "Owners"
+  },
+  "Value": "Data.Definitions[0].Ext.['er.owner'].owner"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGOverviewFieldAttribute, Microsoft.DataPlatform.DataDiscovery",
+    "DisplayName": "Release"
+  },
+  "Value": "Data.Definitions[0].Ext.['er.identity'].release"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGOverviewFieldAttribute, Microsoft.DataPlatform.DataDiscovery",
+    "DisplayName": "Public Description"
+  },
+  "Value": "Data.Definitions[0].Ext.['er.compliance'].publicDescription"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGOverviewFieldAttribute, Microsoft.DataPlatform.DataDiscovery",
+    "DisplayName": "Group Name"
+  },
+  "Value": "Data.Definitions[0].Ext.['er.ingestion'].groupName"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGTabFieldAttribute, Microsoft.DataPlatform.DataDiscovery",
+    "DisplayName": "MetaData"
+  },
+  "Value": "Data.Definitions.Ext"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGFilterFieldAttribute, Microsoft.DataPlatform.DataDiscovery",
+    "DisplayName": "Quality"
+  },
+  "Value": "Taxonomy.QualityByte"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGFilterFieldAttribute, Microsoft.DataPlatform.DataDiscovery",
+    "DisplayName": "Release"
+  },
+  "Value": "Taxonomy.Release"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGFilterFieldAttribute, Microsoft.DataPlatform.DataDiscovery",
+    "DisplayName": "Release State"
+  },
+  "Value": "Taxonomy.ReleaseState"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGFilterFieldAttribute, Microsoft.DataPlatform.DataDiscovery",
+    "DisplayName": "Category"
+  },
+  "Value": "Taxonomy.Category"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGFilterFieldAttribute, Microsoft.DataPlatform.DataDiscovery",
+    "DisplayName": "Group Name"
+  },
+  "Value": "Taxonomy.GroupName"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGAttributeNameAttribute, Microsoft.DataPlatform.DataDiscovery"
+  },
+  "Value": "Data.Definitions[0].Fields.Name"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGAttributeDataTypeAttribute, Microsoft.DataPlatform.DataDiscovery"
+  },
+  "Value": "Data.Definitions[0].Fields.Type"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGAttributeDecorationAttribute, Microsoft.DataPlatform.DataDiscovery",
+    "DecorationType": "Description",
+    "UseDGDecoration": "False"
+  },
+  "Value": "Data.Definitions[0].Fields.Ext.['er.user'].engineeringDescription"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGEntityVersionAttribute, Microsoft.DataPlatform.DataDiscovery"
+  },
+  "Value": "Data.Definitions[0].Edi"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGEntityProviderAttribute, Microsoft.DataPlatform.DataDiscovery"
+  },
+  "Value": "Data.Provider"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGEntityDecorationAttribute, Microsoft.DataPlatform.DataDiscovery",
+    "DecorationType": "Description",
+    "UseDGDecoration": "False"
+  },
+  "Value": "Data.Definitions[0].Ext.['er.user'].engineeringDescription"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGEntityDecorationAttribute, Microsoft.DataPlatform.DataDiscovery",
+    "DecorationType": "Owners",
+    "UseDGDecoration": "False"
+  },
+  "Value": "Data.Definitions[0].Ext.['er.owner'].owner"
+}, {
+  "Key": {
+    "$type": "Microsoft.DataPlatform.DataDiscovery.DGEntityDecorationAttribute, Microsoft.DataPlatform.DataDiscovery",
+    "DecorationType": "ReleaseState",
+    "UseDGDecoration": "False"
+  },
+  "Value": "Data.Definitions[0].Ext.['er.identity'].releaseState"
+}

@@ -1,0 +1,335 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\amandading\\source\\repos\\PrivacyTagApp\\PrivacyTagApp\\PrivacyTagApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\amandading\\source\\repos\\PrivacyTagApp\\PrivacyTagApp\\PrivacyTagApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amandading\\source\\repos\\PrivacyTagApp\\PrivacyTagApp\\PrivacyTagApp.csproj",
+        "projectName": "PrivacyTagApp",
+        "projectPath": "C:\\Users\\amandading\\source\\repos\\PrivacyTagApp\\PrivacyTagApp\\PrivacyTagApp.csproj",
+        "packagesPath": "C:\\Users\\amandading\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amandading\\source\\repos\\PrivacyTagApp\\PrivacyTagApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amandading\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://msdata.pkgs.visualstudio.com/_packaging/DataGrid%40Local/nuget/v3/index.json": {},
+          "https://skype.pkgs.visualstudio.com/_packaging/tps/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "AsimovEventRegistry.Library": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Bond.CSharp": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "DataGrid.ADFMigrationTool": {
+              "target": "Package",
+              "version": "[9.1.21336.122, )"
+            },
+            "DataGrid.Discovery.AssetContracts": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Discovery.DataDiscoveryGeneratedContracts": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Discovery.DataDiscoveryHelper": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Discovery.DataDiscoveryServiceContracts": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Discovery.DataDiscoveryTestHelper": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Discovery.DataDiscoveryValidator": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Discovery.DataMapClient": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Discovery.DiscoveryClient": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Discovery.ExtendedDiscoveryClient": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Discovery.PdmsClient": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Discovery.PdmsContracts": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Discovery.Teams.Clients": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Discovery.Teams.Core": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Discovery.TenantAccess": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Gateway.AsimovContracts": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Gateway.AsimovHelper": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Gateway.ContractManager": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Gateway.DataMapHelper": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Gateway.DataMapHelperContracts": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Gateway.DataMapHelperTestUtils": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Gateway.GatewayV2Client": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Gateway.GatewayV2Contracts": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Gateway.GatewayV2PrivacyClient": {
+              "target": "Package",
+              "version": "[9.1.24071.100, )"
+            },
+            "DataGrid.Gateway.MetadataService": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Gateway.MetadataServiceContracts": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Gateway.MetadataServiceLogger": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.GatewayClient": {
+              "target": "Package",
+              "version": "[9.0.20293.3, )"
+            },
+            "DataGrid.Shared": {
+              "target": "Package",
+              "version": "[9.1.19246.2, )"
+            },
+            "DataGrid.Shared.AssetContracts": {
+              "target": "Package",
+              "version": "[9.1.19246.2, )"
+            },
+            "DataGrid.Shared.AutopilotHelper": {
+              "target": "Package",
+              "version": "[9.1.24037.52, )"
+            },
+            "DataGrid.Shared.Build": {
+              "target": "Package",
+              "version": "[9.1.20024.47, )"
+            },
+            "DataGrid.Shared.CosmosCommon": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.CosmosShareMap": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.CredentialsConnector": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.DataMapUtils": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.DataSync": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.ElasticSearchHelper": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.ErrorContracts": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.GlobalContracts": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.Other": {
+              "target": "Package",
+              "version": "[9.1.19246.2, )"
+            },
+            "DataGrid.Shared.PrivacyTagLibrary": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.ScaleOutContracts": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.SearchSerializationHelper": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.SerializationHelper": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.ServiceHelper": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.ServiceLogging": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.StateManagement": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.Test": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.TestAzure": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.Watermark": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.XflowScaleOut": {
+              "target": "Package",
+              "version": "[9.1.24201.47, )"
+            },
+            "DataGrid.Shared.Xpert": {
+              "target": "Package",
+              "version": "[9.1.24037.52, )"
+            },
+            "DataGrid.SqlizerFunction": {
+              "target": "Package",
+              "version": "[9.1.24191.57, )"
+            },
+            "DataGrid.TrendingClient": {
+              "target": "Package",
+              "version": "[9.1.24032.29, )"
+            },
+            "Microsoft.Azure.Management.DataFactory": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.Cosmos.Client": {
+              "target": "Package",
+              "version": "[1.8.0.1, )"
+            },
+            "Microsoft.Cosmos.ScopeSDK": {
+              "target": "Package",
+              "version": "[1.5115064.2, )"
+            },
+            "Microsoft.Identity.Web.Certificateless": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.PrivacyServices.Manifest": {
+              "target": "Package",
+              "version": "[1.0.19123.2, )"
+            },
+            "Microsoft.PrivacyServices.PrivacyAnnotation": {
+              "target": "Package",
+              "version": "[1.0.19123.2, )"
+            },
+            "Microsoft.VisualStudio.TextTemplating": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
